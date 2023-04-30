@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Introvert</title>
+  
+    <!---------- favicons --------->
+    <link rel="shortcut icon" type="image/jpg" href="images/images/ti-logo.jpg">
+   
+    <!---------------fontawsmfile------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------------social--------------->
+    <link rel="stylesheet" type="text/css" href="library/social/jssocials.css">
+    <link rel="stylesheet" href="library/social/jssocials-theme-flat.css">
+
+     <!--Jqueryuifile--->
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+ 
+       <!--------------customfile-------------->
+    <link rel="stylesheet" href="css/custom.css">
+  
+    <!--------------customfile-------------->
+    <link rel="stylesheet" href="css/book.css">
+
+</head>
+<body>
+        <section class="Sec1">
+                <div class="sec1-wrapper">
+                <div class="text">
+                <p class="text"><span class="user"><i class="fa fa-user" aria-hidden="true"></i></span>Agent Login</p>
+                <p class="text"><span class="user"><i class="fa fa-user" aria-hidden="true"></i></span>Customer Login</p>
+                <p class="text"><span class="file"><i class="fa fa-file-o" aria-hidden="true"></i></span>Not a Member ?<span class="register">Register</span></p>
+                <p class="text"><a href="tel:815-123-4567">Call Us Now :815-123-4567</a></p>
+                </div>
+                <div class="socialicons">
+                   <ul class="list-icons">
+                       <li>
+                            <a class="icons" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"> </i> </a>
+                         </li>
+                                   
+                        <li>
+                             <a class="icons" href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"> </i> </a>
+                        </li>
+                                       
+                        <li>
+                          <a class="icons" href="https://www.gmail.com/" target="_blank"> <i class="fa fa-google"> </i> </a>
+                        </li>
+                                   
+                         <li>
+                          <a class="icons" href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"> </i> </a>
+                         </li>
+                                   
+                         <li>
+                           <a class="icons" href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin"> </i> </a>
+                               </li>
+                           </ul>
+                </div>
+                </div>
+               </section>
+             
+               <!-----------------------------Header---------------------------------->
+                <header id="myHeader">
+                    <div class="nav">
+                        
+                        <div class="logo"><p class="title"><a href="index.html"><span class="logs">
+                            <img class="tlogo" src="images/images/ti-logo.jpg" alt="logo"></span>Travel Introvert</a></p></div>
+                         <nav class="list">
+                          <ul class="nav-bar">
+                            <li class="nav-item"><a  class="nav-link" href="index.html">Home</a></li>
+                            <li  class="nav-item"><a  class="nav-link" href="services.html">Explore our Services</a></li>
+                            <li  class="nav-item"><a  class="nav-link" href="blog.html">Blogs</a></li>    
+                            <li  class="nav-item"><a  class="nav-link" href="about.html">About Us</a></li>
+                            <li  class="nav-item"><a  class="nav-link" href="bookus.html">Book Us</a></li>
+                       </nav>  
+                           </div>
+                 </header>
+                 <!----form--->
+                 <div class="colf">
+                  <div class="form-box">
+                 <h3 class="form-heading">Booking Form</h3>
+                 <form id="Form">
+                  <div class="fcol">
+                    <div>
+                   <input name="name" placeHolder="Name:" type="text">
+                 </div>
+                 
+                 <div>
+                 <input name="country" placeHolder="Country:" type="text">
+                 </div>
+                 
+                 <div>
+                 <input name="pnumber" placeHolder="PhoneNumber:" type="number">
+                 </div>
+                 </div>
+                 
+                 <div class="fcol">
+                 <div>  
+                 <input name="email" placeHolder="Email:" type="text">
+                 </div>
+                 
+                 <div>
+                   <input name="hotel" placeHolder="Hotel:" type="text">
+                 </div>
+                 
+                 <div>
+                 <input name="password" placeHolder="Password:" type="text">
+                 </div>
+                 </div>
+                 
+                 <div>
+                   <label class="tmDatepicker">Check-in
+                      <input type="text" name="Checkin" placeHolder='10/05/2014' class="ch22" id="datepicker">
+                      <div class="fcal1"><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                    </label>
+                 </div>
+                 
+                 <div>
+                 <label class="tmDatepicker">Check-out
+                  <input type="text" name="Checkout" placeHolder='20/05/2014' class="ch21" id="datepicker2">
+                  <div class="fcal2"><i class="fa fa-calendar" aria-hidden="true"></i></div>    
+                </label>
+                 </div>
+                 
+                 <div class="com2">
+                                    <label class="label1">Comfort:</label>
+                                          <input name="Comfort" type="radio" id="tmRadio0">
+                                          <label class="opt">Cheap</label>
+                                          <input name="Comfort" type="radio" id="tmRadio1"/>
+                                          <label class="opt">Standart</label>
+                                          <input name="Comfort" type="radio" id="tmRadio2"/>
+                                          <label class="opt">Lux</label>
+                 </div>
+                 
+                 <div>
+                               <label class="hselect">Adults</label>
+                                          <select name="Adults" class="tmSelect1">
+                                              <option>1</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                          </select>
+                 </div>
+                 
+                 <div>
+                                  <label class="hselect">Rooms</label>
+                                          <select name="Rooms" class="tmSelect1">
+                                              <option>1</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                          </select>
+                 
+                 </div>
+                 
+                 <div>
+                                  <label class="hselect">Children</label>
+                                          <select name="Children" class="tmSelect1">
+                                              <option>0</option>
+                                              <option>0</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                          </select>
+                 </div>
+                 
+                 <div class="tmTextarea">
+                      <textarea name="Message" placeHolder="Message"></textarea>
+                  </div>
+                 
+                 <div>
+                       <input class="btn2" type="submit" value="Submit">
+                 </div>
+                                  </form>
+                                </div>
+                                </div>
+                               
+<!-----------------------------footer---------------------------------->
+<footer>
+	
+        <div class="footer_main_div">
+          <div class="div1">
+          
+          <h2 class="footer-heading">Address & Contact</h2> </a>
+           
+          <address>
+            <nav>
+              
+              <ul>
+                
+                <li class="two">
+                  <a href="https://goo.gl/maps/nVaE8bURm1JHMLE3A"> <i class="fa fa-map-marker">  &nbsp; 166 G/5, Block 3, PECHS, Block 3 <span class="adres">PECHS, Karachi, Sindh </span></i></a>
+                </li>
+    
+                <li class="three">
+                  <a href="tel:+92-213-4156-789" > <i class="fa fa-phone"> &nbsp; +92-213-4156-789 </i> </a>
+                </li>
+    
+                <li class="four">
+                  <a href="mailto:contact@travelintrovert.com"> <i class="fa fa-envelope"> &nbsp;contact@travelintrovert.com</i> </a>
+                </li>
+    
+                <li class="five">
+                  <a href="#"> <i class="fa fa-globe"> &nbsp;www.travelintrovert.consulnet.net </i> </a>
+                </li>
+                
+                <li id="shareRoundIcons">
+                  <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"> </i> </a>&nbsp;&nbsp;
+                  
+                  <a href="https://www.twitter.com/" target="_blank"> <i class="fa fa-twitter"> </i> </a>&nbsp;&nbsp;
+                  
+                  <a href="https://www.gmail.com/" target="_blank"> <i class="fa fa-envelope-o"> </i> </a>&nbsp;&nbsp;
+                  
+                  <a href="https://www.googleplus.com/" target="_blank"> <i class="fa fa-instagram"> </i> </a>&nbsp;&nbsp;
+                  
+                  <a href="https://www.pinterest.com/" target="_blank"> <i class="fa fa-linkedin"> </i> </a>
+                </li>
+              </ul>
+            </nav>
+          </address>
+          </div>
+          
+          <div class="div2">
+            
+          <h2>Useful Links</h2>
+            
+            <nav>
+              <ul>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                
+                <li>
+                  <a href="services.html">Expore Our Services</a>
+                </li>
+               
+                <li>
+                  <a href="blog.html">Blogs</a>
+                </li>
+                
+                <li>
+                  <a href="about.html">About Us</a>
+                </li>
+    
+                <li>
+                  <a href="bookus.html">Book Us</a>
+                </li>
+              </ul>
+            </nav>
+            
+          </div>
+    
+          <div class="div3">
+            
+            <h2>More Pictures</h2>
+            
+            <div>
+              <img src="images/images/download2.jpg" alt="image1">
+              <img src="images/images/frances.jpg" alt="image2">
+              <img src="images/images/tyler.jpg" alt="image3">
+              <img src="images/images/italian.jpg" alt="image4">
+              <img src="images/images/honkong3.png" alt="image5">
+              <img src="images/images/joshua.jpg" alt="image6">
+            </div>
+          
+          </div>
+        
+        </div>
+        
+        <div class="div4">
+          <p class="copyr"><span class="copy"><i class="fa fa-copyright" aria-hidden="true"></i></span>CopyRight Since.2019</p>
+          <i class="two"> <a href="#"> FAQ | </a> <a href="#"> Help Desk | </a> <a href="#"> Support </a> </i> 
+    
+        </div>
+        
+        <div class="scroll-to-top" style="display: none;">
+          <a href="#"><i class="fa fa-angle-double-up top-button"> </i> </a>
+        </div>
+        
+      </footer>
+
+     <script src="js/jquery-3.4.1.min.js"></script> <!--jqueryminfile-->
+    <script src="library/validation/dist/jquery.validate.min.js"></script><!---validation-->
+    <script src="library/validation/dist/additional-methods.js"></script>
+    <script src="library/social/jssocials.min.js"></script><!--social--->
+    <script src="library/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script><!---jqueryui-->
+     <!--------------------- Arrow Top Icon Script ------------------->
+     <script>
+    
+            $(document).ready(function(){
+              $(".top-button").click(function(){
+                $('html, body').animate({scrollTop:0}, 'slow');
+              });
+            });
+            
+            </script>
+            
+            <!-----------------------------Sticky Bar Script ----------------------->
+            
+            <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+              $('.scroll-to-top').show();
+              $('.normal-logo').hide();
+              $('.sticky-logo').show();
+            } else {
+              $('.scroll-to-top').hide();
+              $('.normal-logo').show();
+              $('.sticky-logo').hide();
+              header.classList.remove("sticky");
+            }
+            };
+              </script>
+            <script>
+                    $("#shareRoundIcons").jsSocials({
+                      showLabel: false,
+                      showCount: false,
+                      shares: ["email", "twitter", "facebook", "googleplus", "pinterest"]
+                    });
+                    </script>
+          <script>
+                $(document).ready(function(){
+            
+                    
+                  $.validator.setDefaults({
+                        submitHandler:function(){
+                            alert('Form submitted');
+                        }
+                    });
+            
+                    $('form').validate({
+                            rules:{
+                                 name:'required',
+                                 Message: 'required',
+                                 pnumber: 'required',
+                                 country:'required',
+                                 hotel:'required',
+                                Checkout:'required',
+                                Checkin:'required',
+                                email:{
+                                  required: true,
+                                  email: true
+                                },
+                                password:{
+                                  required: true,
+                                  minlength: 8,
+                                },
+                            }
+                 })
+                });
+                </script>
+         </script>
+         <!---datepicker-->
+         <script>
+               $(document).ready(function() {
+               $( "#datepicker" ).datepicker();
+       } );
+         </script>    
+                  
+                  <script>
+                      $(document).ready(function() {
+                      $( "#datepicker2" ).datepicker();
+              } );
+                </script>               
+</body>
+</html>

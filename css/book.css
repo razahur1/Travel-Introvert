@@ -1,0 +1,115 @@
+/* Add Fonts */
+@import url('fonts.css');
+
+.colf{
+    background-image: url("../images/blog/sharja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 60px;
+   padding-top: 60px;
+}
+.form-box{
+ width: 700px;
+ padding-left: 40px;
+ margin-left: 26%;
+ background: #33C999;
+ border-radius: 50px
+}
+.form-heading{
+ font-size: 40px;
+ line-height: 27px;
+ color: #002747;
+ padding-top: 69px;
+ margin-bottom: 41px;
+font-family: "WorkSans-ExtraBold"
+}
+.fcol{
+display: flex;
+}
+.fcol input{
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 15px
+}
+.ch22{
+     margin-left: 37px;
+     padding-left: 10px;
+      margin-bottom: 20px;
+      height: 30px;
+     font-size: 15px;
+     position:relative;
+}
+.ch21{
+        margin-left: 31px;
+       padding-left: 10px;
+       margin-bottom: 20px;
+      height: 30px;
+      font-size: 15px;
+      position:relative;
+}
+.label1{
+          margin-right: 42px;
+}
+.com2{
+          margin-bottom: 10px;
+}
+.tmSelect1{
+    width: 90px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.hselect{
+    margin-right: 20px
+}
+.tmTextarea textarea{
+    width: 280px;
+    height: 131px;
+    padding-left: 31px;
+    font-size: 20px
+}
+.btn2{
+    width: 100px;
+    height: 47px;
+    margin-top: 30px;
+    border-radius: 13px;
+    margin-bottom: 45px;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 17px;
+    font-family:"WorkSans-Regular";
+    cursor: pointer;
+}
+label{
+     font-family:"WorkSans-SemiBold";
+}
+input{
+     font-family:"WorkSans-Regular";
+}
+.opt{
+     margin-right: 20px;
+     font-size: 18px;
+     font-family:"WorkSans-Regular";
+}
+label.tmDatepicker{
+    position: relative;
+}
+
+.form-box .fcal1, .form-box .fcal2{
+    position: absolute;
+    left: 270px;
+    top: -1px;
+    cursor: pointer;
+    font-size: 19px
+}
+/* .fcal2{
+     position: absolute;
+    cursor: pointer;
+    left:53%;
+    top:47.5%;
+    font-size: 19px
+} */
